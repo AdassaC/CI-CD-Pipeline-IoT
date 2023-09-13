@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         imageName = adassac/iot-test-app.
-        dockerCredentialsName='dockerhub-creds'
+        dockerCredentialsName = 'dockerhub-creds'
         dockerImage = ''
     }
 
